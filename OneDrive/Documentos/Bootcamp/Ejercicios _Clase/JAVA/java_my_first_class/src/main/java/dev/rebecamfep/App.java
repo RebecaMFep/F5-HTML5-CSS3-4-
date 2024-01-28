@@ -14,7 +14,7 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        Person rebeca = new Person("Rebeca","Martinez","75958073k",1980);
+        Person rebeca = new Person("Rebeca","Martinez","75958073k",1980, "Spain", 'M');
 
         rebeca.render();
     }
