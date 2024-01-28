@@ -1,5 +1,7 @@
 package dev.rebecamfep;
 
+import dev.rebecamfep.models.Person;
+
 /**
  * Hello world!
  */
@@ -12,6 +14,8 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Person rebeca = new Person("Rebeca","Martinez","75958073k",1980);
+
+        rebeca.render();
     }
 }
